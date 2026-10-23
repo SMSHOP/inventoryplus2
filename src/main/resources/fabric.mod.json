@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "inventoryplus",
+  "version": "${version}",
+  "name": "Inventory Plus",
+  "description": "Agrega 27 slots extra al inventario normal, boton de ordenar y animaciones.",
+  "authors": ["Tu nombre"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.inventoryplus.InventoryPlus"],
+    "client": ["com.example.inventoryplus.InventoryPlusClient"]
+  },
+  "mixins": ["inventoryplus.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
